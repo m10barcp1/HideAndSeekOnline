@@ -154,7 +154,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.iKame.HideAndSeekProject
-    Standalone: com.DefaultCompany.HideAndSeekProject
+    Standalone: com.iKame.HideAndSeekProject
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -804,10 +804,10 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: f7d0ac48-d6a4-48ce-bc5e-7178b8cf37f3
+  cloudProjectId: 62ac856f-a85c-498f-bbe7-aaaa7c5ccbf6
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: HideAndSeekProject
+  projectName: HideAndSeekProject (1)
   organizationId: m10barcp1
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

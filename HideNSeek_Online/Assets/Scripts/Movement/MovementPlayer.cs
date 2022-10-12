@@ -18,10 +18,8 @@ public class MovementPlayer : MonoBehaviour
     private Animator anim;
     private Vector3 move;
     #endregion
-
     void Start()
     {
-        joystick = FindObjectOfType<DynamicJoystick>();
         _controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
         if (gameObject.CompareTag("SeekPlayer"))
@@ -43,7 +41,6 @@ public class MovementPlayer : MonoBehaviour
         if (!GameManager.instance.EndGame && GameManager.instance.onClick)
         {
             _controller.enabled = true;
-
             #region Hide Mode
             if (HideCharacter != null)
             {

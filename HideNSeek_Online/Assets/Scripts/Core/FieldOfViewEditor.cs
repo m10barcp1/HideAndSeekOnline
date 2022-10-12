@@ -1,9 +1,5 @@
-
-#if UNITY_EDITOR
 using UnityEditor;
 using UnityEngine;
-
-
 
 [CustomEditor(typeof(SeekStateManager))]
 public class FieldOfViewEditor : Editor
@@ -35,4 +31,3 @@ public class FieldOfViewEditor : Editor
         return new Vector3(Mathf.Sin(angleInDegrees * Mathf.Deg2Rad), 0, Mathf.Cos(angleInDegrees * Mathf.Deg2Rad));
     }
 }
-#endif
